@@ -4,10 +4,10 @@ import pandas as pd
 import joblib
 
 # Corrected file paths (use raw strings to avoid escape sequence issues)
-model_young = joblib.load(r"ReadyModels\model_young.joblib")
-model_rest = joblib.load(r"ReadyModels\model_rest.joblib")
-scaler_young = joblib.load(r"ReadyModels\scaler_young.joblib")
-scaler_rest = joblib.load(r"ReadyModels\scaler_rest.joblib")
+model_young = joblib.load(r"ReadyModels/model_young.joblib")
+model_rest = joblib.load(r"ReadyModels/model_rest.joblib")
+scaler_young = joblib.load(r"ReadyModels/scaler_young.joblib")
+scaler_rest = joblib.load(r"ReadyModels/scaler_rest.joblib")
 
 
 def calculate_normalized_risk(medical_history):

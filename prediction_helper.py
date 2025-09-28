@@ -3,6 +3,13 @@
 import pandas as pd
 import joblib
 
+import os
+
+for file in ["ReadyModels/model_young.joblib", "ReadyModels/model_rest.joblib",
+             "ReadyModels/scaler_young.joblib", "ReadyModels/scaler_rest.joblib"]:
+    print(file, "exists:", os.path.exists(file))
+
+
 # Corrected file paths (use raw strings to avoid escape sequence issues)
 model_young = joblib.load(r"ReadyModels/model_young.joblib")
 model_rest = joblib.load(r"ReadyModels/model_rest.joblib")

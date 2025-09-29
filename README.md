@@ -1,7 +1,3 @@
-Of course. Based on our entire conversation, here is a more detailed and compelling description for your GitHub repository. It highlights the key features, your unique problem-solving approach, and the final outcome.
-
------
-
 ### Healthcare Premium Prediction 🏥 | End-to-End ML Project
 
 This project predicts annual healthcare insurance premiums using a machine learning model. The model analyzes 12 key personal and health-related factors—such as **age, BMI, smoking status, and genetic risk**—to provide an accurate estimate.
